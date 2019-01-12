@@ -1,0 +1,139 @@
+body {
+  font-family: 'Nunito';
+}
+
+h2 {
+  font-size: 18px;
+  padding: 10px 20px;
+  color: #575ed8;
+}
+
+.chat {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #b9b9b9;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  background-color: #e5e7e6;
+}
+
+#chat-window {
+  height: 400px;
+  overflow: auto;
+}
+
+.chat-head {
+  color: #5a5a5a;
+  font-weight: 700;
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+  transition: 0.3s all ease;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+#output img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 15px;
+  float: left;
+}
+
+.msg {
+  /* display: flex;
+  align-items: center; */
+  border-bottom: 1px solid #b9b9b9;
+  /* padding: 15px 25px; */
+  overflow: hidden;
+}
+
+.msg.your img {
+  float: right !important;
+}
+
+.msg.your .info {
+  align-items: flex-end;
+}
+
+.msg .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+#output h3 {
+  color: #575ed8;
+  margin: 0;
+}
+
+#output p {
+  padding: 14px 0 0;
+  margin: 0;
+  color: #555;
+  /* min-height: 100px; */
+}
+
+.feedback {
+  height: 50px;
+}
+
+#feedback {
+  display: none;
+}
+
+#feedback p {
+  color: #5a5a5a;
+  padding: 14px 0px;
+  margin: 0 20px;
+  transition: 0.3s all ease;
+}
+
+label {
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 20px;
+}
+
+.form {
+  display: flex;
+  height: 80px;
+  margin: 10px;
+}
+
+textarea {
+  padding: 10px 50px 10px 20px;
+  margin: 10px 20px 10px 10px;
+  box-sizing: border-box;
+  background: #eee;
+  border: 0;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #eee;
+  font-family: Nunito;
+  font-size: 16px;
+  resize: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #e5e7e6;
+  color: #575ed8;
+  font-size: 18px;
+  border: 0;
+  padding: 12px 0;
+  width: 200px;
+  border-radius: 0 0 2px 2px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  margin: 10px 10px 10px 0;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #b3b3b3;
+  color: #181dd8;
+}
